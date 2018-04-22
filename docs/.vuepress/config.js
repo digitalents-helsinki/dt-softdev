@@ -24,7 +24,8 @@ module.exports = {
         sidebar: {
           '/getting-started/': genSidebarConfig('Getting Started', [
             '',
-            'essentials',
+            'version-control',
+            'node',
             'editor'
           ])
         }

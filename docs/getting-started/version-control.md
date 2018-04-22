@@ -2,35 +2,13 @@
 sidebarDepth: 2
 ---
 
-# Essentials
-
-## Node.js and npm
-
-Node.js is a javascript runtime engine. It's most commonly used in backend solutions using javascript, but has been gaining traction as sort of a build and automating tool in frontend side as well. Most of the projects being worked on at Digitalents are made in javascript (or WordPress – more on that later).
-
-npm or (Node Package Manager) is – as the name suggests – a package manager for Node.js. Package manager is a collection of tools helping you to install, upgrade, configure and remove programs or modules. With npm, you can for example install node modules globally, or as a project dependencies.
-
-### Installing Node.js and npm
-
-#### macOS
-
-* Head over to [Node's website](https://nodejs.org/en/)
-* Click the download button with "_Recommended for Most Users_" text below the version number.
-* Follow the installer instructions.
-* To make sure both are installed, open up terminal and run `node -v && npm -v` `-v` stands for _version_. This argument will print out the version number for both programs respectively. You should see something like this on your terminal: ![node and npm version](./img/node-npm-v.png)
-* That's it! You now have both node.js and npm installed on your system.
-
-::: tip Other Systems
-Other systems' installing process may be different. Please make a **Pull Request** to this documentation explaining the process for your platform of choice.
-:::
-
-## Version Control
+# Version Control
 
 ![Version Control in a nutshell](./img/version-control.png)
 
 As [Wikipedia puts it](https://en.wikipedia.org/wiki/Version_control), Version Control refers to the management of changes to documents, computer programs, large web sites, and other collections of information.
 
-### What's the Latest Version Again?
+## What's the Latest Version Again?
 
 Arguably, the most basic form of version control to not-so-tech-savy people is locally renaming different versions of the same source file to something like `my-app-2018-04-22.js`. However as easy and comfortable this can seem at first, managing different versions of files this way can become an unmanageable mess as your project grows.
 
@@ -73,13 +51,13 @@ To this;
 
 This is obviously what we don't want to happen, especially when working in a team.
 
-### Git to the Rescue!
+## Git to the Rescue!
 
 [Git](https://git-scm.com/) is a free, open source distributed version control system for small-to-large projects. Git itself refers it to be fast, performant and easy to learn, but most importantly is arguably the most used version control system in teams handling source code. Oh, and it's made by Linus Torvalds!
 
 Git allows groups of people to work on the same code at the same time without stepping on each other's toes constantly.
 
-### Git ain't Easy
+## Git ain't Easy
 
 Contradicting a bit Git's statement on being easy to learn, it is quite difficult to master. In fact, if someone comes up to you and says they "know git 100%", politely proceed to slap them on the cheek and tell 'em they're lying.
 
@@ -121,7 +99,7 @@ Checks for changes on the remote repository and pulls down any new changes to th
 
 ---
 
-### Learning Git
+## Learning Git
 
 Don't worry if all of this goes over your head right now. The best practice right now is for you to start experimenting with git on your personal projects. Learn by doing! Google stuff! Same as with programming in general.
 
